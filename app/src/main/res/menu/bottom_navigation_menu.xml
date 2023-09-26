@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/current_weather"
+        android:enabled="true"
+        android:icon="@drawable/ic_current"
+        android:title="Current"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/hourly_weather"
+        android:enabled="true"
+        android:icon="@drawable/ic_hourly"
+        android:title="Hourly"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/seven_day_weather"
+        android:enabled="true"
+        android:icon="@drawable/ic_seven_day"
+        android:title="7-Day"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/settings_menu"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="always" />
+</menu>
